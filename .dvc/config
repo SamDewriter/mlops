@@ -1,0 +1,4 @@
+[core]
+    remote = training_data
+['remote "training_data"']
+    url = s3://e4ebucket
