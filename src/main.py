@@ -33,6 +33,9 @@ from io import StringIO
 url_ = dvc.api.get_url(path='data/hotspot_demo.csv', remote='hotspot')
 
 print(url_)
+
+df = pd.read_csv(url_)
+print(df)
     
 
 # def eval_metrics(actual, pred):
